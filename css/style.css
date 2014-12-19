@@ -1,0 +1,23 @@
+body{
+  margin: 0px;
+  overflow: hidden;
+}
+
+#topo{
+  float: right;
+  margin-bottom: -100px;
+  height: 100px;
+  
+}
+
+#topo img{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#mapdiv{
+  width: 100%; 
+  background-color:#EEEEEE; 
+  height: 100%; 
+
+}

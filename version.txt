@@ -1,0 +1,48 @@
+/************************************************************
+
+			CSF - Atack Map
+
+PORTUGUES:
+
+  Esse script carrega os dados dos logs de bloqueio do firewall 
+  e mostra os países que originaram os ataques. 
+
+  Criado por Vagner Kaefer Dos Santos`.
+  Github: @vagkaefer
+  Facebook: @vagkaefer
+  Site: www.vagner.eng.br
+  Contato: vagner@kaefer.eng.br
+
+  Para conhecer os demais contribuidores visualize o repositório
+  do projeto no github:
+  
+  
+ENGLISH:
+
+  This script loads data from firewall blocking logs
+  and shows the countries that led the attacks.
+
+  Created by Vagner Kaefer Dos Santos`.
+  Github: @vagkaefer
+  Facebook: @vagkaefer
+  Site: www.vagner.eng.br
+  Contact: vagner@kaefer.eng.br
+
+  To know the other contributors view the repository on github:
+  
+
+************************************************************
+
+Versões/Versions
+
+- V1.0 - 15/12/2014
+  
+  PORTUGUES:
+  
+    - Funcionalidades básicas do projeto
+
+  ENGLISH:
+  
+    - Basic design features
+
+************************************************************/

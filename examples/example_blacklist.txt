@@ -1,0 +1,116 @@
+###############################################################################
+# Copyright 2006-2014, Way to the Web Limited
+# URL: http://www.configserver.com
+# Email: sales@waytotheweb.com
+###############################################################################
+# The following IP addresses will be blocked in iptables
+# One IP address per line
+# CIDR addressing allowed with a quaded IP (e.g. 192.168.254.0/24)
+# Only list IP addresses, not domain names (they will be ignored)
+#
+# Note: If you add the text "do not delete" to the comments of an entry then
+# DENY_IP_LIMIT will ignore those entries and not remove them
+#
+# Advanced port+ip filtering allowed with the following format
+# tcp/udp|in/out|s/d=port|s/d=ip
+#
+# See readme.txt for more information regarding advanced port filtering
+#
+95.173.179.180 # lfd: (ftpd) Failed FTP login from 95.173.179.180 (TR/Turkey/-/-/180r2sn60.ni.net.tr): 10 in the last 1800 secs - Wed Dec  3 00:02:04 2014
+192.151.155.18 # lfd: (ftpd) Failed FTP login from 192.151.155.18 (US/United States/Missouri/Kansas City/-): 10 in the last 1800 secs - Wed Dec  3 00:07:28 2014
+175.100.63.24 # lfd: (smtpauth) Failed SMTP AUTH login from 175.100.63.24 (KH/Cambodia/-/-/-): 5 in the last 1800 secs - Wed Dec  3 00:14:20 2014
+173.208.223.14 # lfd: (smtpauth) Failed SMTP AUTH login from 173.208.223.14 (US/United States/Missouri/Kansas City/-): 5 in the last 1800 secs - Wed Dec  3 00:29:09 2014
+173.208.222.98 # lfd: (smtpauth) Failed SMTP AUTH login from 173.208.222.98 (US/United States/Missouri/Kansas City/-): 5 in the last 1800 secs - Wed Dec  3 01:06:28 2014
+198.58.88.171 # lfd: (ftpd) Failed FTP login from 198.58.88.171 (US/United States/California/Santa Rosa/elmed.arvixevps.com): 10 in the last 1800 secs - Wed Dec  3 02:01:04 2014
+104.193.11.23 # lfd: (smtpauth) Failed SMTP AUTH login from 104.193.11.23 (US/United States/Pennsylvania/Clarks Summit/-): 5 in the last 1800 secs - Wed Dec  3 07:23:31 2014
+187.33.247.183 # lfd: (smtpauth) Failed SMTP AUTH login from 187.33.247.183 (BR/Brazil/-/-/reverso.183.reverso.com): 5 in the last 1800 secs - Wed Dec  3 07:58:04 2014
+200.69.128.14 # lfd: (ftpd) Failed FTP login from 200.69.128.14 (AR/Argentina/Entre Rios/Federal/ftp.opcionestelmex.com.ar): 10 in the last 1800 secs - Wed Dec  3 09:35:18 2014
+80.123.120.238 # lfd: (smtpauth) Failed SMTP AUTH login from 80.123.120.238 (AT/Austria/Wien/Vienna/-): 5 in the last 1800 secs - Wed Dec  3 12:51:19 2014
+179.177.114.4 # lfd: (cpanel) Failed cPanel login from 179.177.114.4 (BR/Brazil/Parana/Cascavel/179.177.114.4.dynamic.adsl.gvt.net.br): 5 in the last 1800 secs - Wed Dec  3 13:54:41 2014
+104.192.103.2 # lfd: (pop3d) Failed POP3 login from 104.192.103.2 (US/United States/-/-/hosted.by.gosmartvps.com): 10 in the last 1800 secs - Wed Dec  3 16:38:08 2014
+200.159.192.31 # lfd: (smtpauth) Failed SMTP AUTH login from 200.159.192.31 (BR/Brazil/Minas Gerais/Contagem/200-159-192-31.viacaboip.com.br): 5 in the last 1800 secs - Wed Dec  3 18:21:48 2014
+191.187.168.202 # lfd: (smtpauth) Failed SMTP AUTH login from 191.187.168.202 (BR/Brazil/-/-/bfbba8ca.virtua.com.br): 5 in the last 1800 secs - Wed Dec  3 18:22:23 2014
+78.186.60.173 # lfd: (smtpauth) Failed SMTP AUTH login from 78.186.60.173 (TR/Turkey/-/-/78.186.60.173.dynamic.ttnet.com.tr): 5 in the last 1800 secs - Wed Dec  3 18:24:34 2014
+72.182.33.119 # lfd: (smtpauth) Failed SMTP AUTH login from 72.182.33.119 (US/United States/Texas/Austin/cpe-72-182-33-119.austin.res.rr.com): 5 in the last 1800 secs - Wed Dec  3 18:25:14 2014
+190.193.133.35 # lfd: (smtpauth) Failed SMTP AUTH login from 190.193.133.35 (AR/Argentina/Distrito Federal/Buenos Aires/35-133-193-190.cab.prima.net.ar): 5 in the last 1800 secs - Wed Dec  3 18:26:04 2014
+83.110.81.126 # lfd: (smtpauth) Failed SMTP AUTH login from 83.110.81.126 (AE/United Arab Emirates/Abu Dhabi/Abu Dhabi/bba449452.alshamil.net.ae): 5 in the last 1800 secs - Wed Dec  3 18:36:50 2014
+37.159.209.6 # lfd: (smtpauth) Failed SMTP AUTH login from 37.159.209.6 (IT/Italy/-/-/net-37-159-209-6.cust.vodafonedsl.it): 5 in the last 1800 secs - Wed Dec  3 18:45:41 2014
+200.4.173.75 # lfd: (smtpauth) Failed SMTP AUTH login from 200.4.173.75 (HT/Haiti/Ouest/Port-au-prince/-): 5 in the last 1800 secs - Wed Dec  3 18:49:47 2014
+81.223.182.50 # lfd: (smtpauth) Failed SMTP AUTH login from 81.223.182.50 (AT/Austria/-/-/server01.reflection-ids.at): 5 in the last 1800 secs - Wed Dec  3 18:52:23 2014
+41.134.116.169 # lfd: (smtpauth) Failed SMTP AUTH login from 41.134.116.169 (ZA/South Africa/-/-/41-134-116-169.dsl.mweb.co.za): 5 in the last 1800 secs - Wed Dec  3 19:05:39 2014
+5.135.162.141 # lfd: (ftpd) Failed FTP login from 5.135.162.141 (FR/France/-/-/ks3311341.kimsufi.com): 10 in the last 1800 secs - Wed Dec  3 19:13:31 2014
+212.185.111.115 # lfd: (smtpauth) Failed SMTP AUTH login from 212.185.111.115 (DE/Germany/-/-/-): 5 in the last 1800 secs - Wed Dec  3 19:37:23 2014
+176.73.188.118 # lfd: (ftpd) Failed FTP login from 176.73.188.118 (GE/Georgia/-/-/-): 10 in the last 1800 secs - Wed Dec  3 20:11:17 2014
+130.185.157.24 # lfd: (smtpauth) Failed SMTP AUTH login from 130.185.157.24 (US/United States/Missouri/Pacific/-): 5 in the last 1800 secs - Wed Dec  3 20:58:36 2014
+5.39.223.36 # lfd: (pop3d) Failed POP3 login from 5.39.223.36 (NL/Netherlands/-/-/-): 10 in the last 1800 secs - Wed Dec  3 23:52:27 2014
+81.137.204.83 # lfd: (smtpauth) Failed SMTP AUTH login from 81.137.204.83 (GB/United Kingdom/-/-/mail.acts-partnership.com): 5 in the last 1800 secs - Thu Dec  4 00:25:24 2014
+203.217.57.43 # lfd: (smtpauth) Failed SMTP AUTH login from 203.217.57.43 (AU/Australia/Victoria/Melbourne/203-217-57-43.perm.iinet.net.au): 5 in the last 1800 secs - Thu Dec  4 00:42:06 2014
+176.61.139.10 # lfd: (smtpauth) Failed SMTP AUTH login from 176.61.139.10 (SE/Sweden/-/-/-): 5 in the last 1800 secs - Thu Dec  4 06:12:46 2014
+194.105.134.55 # lfd: (ftpd) Failed FTP login from 194.105.134.55 (GB/United Kingdom/-/-/-): 10 in the last 1800 secs - Thu Dec  4 06:45:46 2014
+113.162.209.234 # lfd: (smtpauth) Failed SMTP AUTH login from 113.162.209.234 (VN/Vietnam/Quang Nam/Binh Duong/dynamic.vdc.vn): 20 in the last 1800 secs - Thu Dec  4 13:52:58 2014
+179.181.180.155 # lfd: (ftpd) Failed FTP login from 179.181.180.155 (BR/Brazil/-/-/179.181.180.155.dynamic.adsl.gvt.net.br): 20 in the last 1800 secs - Thu Dec  4 16:07:12 2014
+209.126.161.62 # lfd: (smtpauth) Failed SMTP AUTH login from 209.126.161.62 (US/United States/California/San Diego/-): 20 in the last 1800 secs - Thu Dec  4 21:15:26 2014
+5.34.149.33 # lfd: (smtpauth) Failed SMTP AUTH login from 5.34.149.33 (ES/Spain/-/-/5.34.149.33.dinamic.user.wimaxonline.es): 20 in the last 1800 secs - Thu Dec  4 23:32:48 2014
+12.130.169.236 # lfd: (smtpauth) Failed SMTP AUTH login from 12.130.169.236 (US/United States/California/-/-): 20 in the last 1800 secs - Fri Dec  5 03:11:10 2014
+69.162.96.123 # lfd: (ftpd) Failed FTP login from 69.162.96.123 (US/United States/Texas/Dallas/sites.impactaweb.com.br): 20 in the last 1800 secs - Fri Dec  5 05:05:45 2014
+216.136.7.147 # lfd: (smtpauth) Failed SMTP AUTH login from 216.136.7.147 (US/United States/North Carolina/Bethania/mail.ihcaffey.com): 20 in the last 1800 secs - Fri Dec  5 06:53:43 2014
+190.90.205.6 # lfd: (smtpauth) Failed SMTP AUTH login from 190.90.205.6 (EC/Ecuador/Pichincha/Quito/-): 20 in the last 1800 secs - Fri Dec  5 07:14:31 2014
+207.183.250.14 # lfd: (smtpauth) Failed SMTP AUTH login from 207.183.250.14 (US/United States/California/West Sacramento/-): 20 in the last 1800 secs - Fri Dec  5 09:32:46 2014
+212.92.200.44 # lfd: (smtpauth) Failed SMTP AUTH login from 212.92.200.44 (HR/Croatia/Grad Zagreb/Zagreb/-): 20 in the last 1800 secs - Fri Dec  5 17:58:18 2014
+177.70.96.218 # lfd: (ftpd) Failed FTP login from 177.70.96.218 (BR/Brazil/-/-/-): 20 in the last 1800 secs - Sat Dec  6 10:00:02 2014
+177.69.135.210 # lfd: (smtpauth) Failed SMTP AUTH login from 177.69.135.210 (BR/Brazil/Sao Paulo/Campinas/177-069-135-210.static.ctbctelecom.com.br): 20 in the last 1800 secs - Sat Dec  6 15:30:44 2014
+190.153.50.12 # lfd: (smtpauth) Failed SMTP AUTH login from 190.153.50.12 (VE/Venezuela/Distrito Federal/Caracas/12.50.153.190.net-uno.net): 20 in the last 1800 secs - Sun Dec  7 00:52:38 2014
+5.189.129.112 # lfd: (ftpd) Failed FTP login from 5.189.129.112 (DE/Germany/-/-/host11.ACCSFINANCEIROWEB.COM): 20 in the last 1800 secs - Sun Dec  7 01:21:32 2014
+198.23.86.178 # lfd: (cpanel) Failed cPanel login from 198.23.86.178 (US/United States/California/San Jose/198.23.86.178-static.reverse.softlayer.com): 10 in the last 1800 secs - Sun Dec  7 06:27:06 2014
+89.248.171.27 # lfd: (cpanel) Failed cPanel login from 89.248.171.27 (NL/Netherlands/-/-/-): 10 in the last 1800 secs - Sun Dec  7 10:41:16 2014
+12.228.23.226 # lfd: (smtpauth) Failed SMTP AUTH login from 12.228.23.226 (US/United States/-/-/-): 20 in the last 1800 secs - Sun Dec  7 10:43:00 2014
+118.97.191.156 # lfd: (smtpauth) Failed SMTP AUTH login from 118.97.191.156 (ID/Indonesia/Jawa Barat/Bandung/156.subnet118-97-191.astinet.telkom.net.id): 20 in the last 1800 secs - Sun Dec  7 14:04:58 2014
+188.130.91.234 # lfd: (smtpauth) Failed SMTP AUTH login from 188.130.91.234 (FR/France/Ile-de-France/Villiers-sur-marne/ppp-234.net-188-130-91.static.magiconline.fr): 20 in the last 1800 secs - Sun Dec  7 21:07:43 2014
+173.15.105.235 # lfd: (smtpauth) Failed SMTP AUTH login from 173.15.105.235 (US/United States/Illinois/Glendale Heights/173-15-105-235-Illinois.hfc.comcastbusiness.net): 20 in the last 1800 secs - Mon Dec  8 05:45:03 2014
+207.239.16.250 # lfd: (smtpauth) Failed SMTP AUTH login from 207.239.16.250 (US/United States/-/-/-): 20 in the last 1800 secs - Mon Dec  8 10:16:09 2014
+162.248.91.12 # lfd: (pop3d) Failed POP3 login from 162.248.91.12 (US/United States/Texas/Dallas/sv2.viasite.com.br): 20 in the last 1800 secs - Mon Dec  8 10:42:37 2014
+189.42.118.58 # lfd: (cpanel) Failed cPanel login from 189.42.118.58 (BR/Brazil/-/-/-): 10 in the last 1800 secs - Mon Dec  8 11:31:52 2014
+104.152.191.107 # lfd: (smtpauth) Failed SMTP AUTH login from 104.152.191.107 (US/United States/New York/Rochester/-): 20 in the last 1800 secs - Mon Dec  8 22:17:38 2014
+91.240.94.20 # lfd: (smtpauth) Failed SMTP AUTH login from 91.240.94.20 (RO/Romania/-/-/-): 20 in the last 1800 secs - Tue Dec  9 01:16:06 2014
+201.54.30.34 # lfd: (smtpauth) Failed SMTP AUTH login from 201.54.30.34 (BR/Brazil/-/-/201.54.30.34.dedicated.neoviatelecom.com.br): 20 in the last 1800 secs - Tue Dec  9 02:54:48 2014
+96.39.52.45 # lfd: (smtpauth) Failed SMTP AUTH login from 96.39.52.45 (US/United States/Massachusetts/North Brookfield/96-39-52-45.static.oxfr.ma.charter.com): 20 in the last 1800 secs - Tue Dec  9 03:15:43 2014
+74.208.66.208 # lfd: (smtpauth) Failed SMTP AUTH login from 74.208.66.208 (US/United States/Pennsylvania/Wayne/s15435019.onlinehome-server.com): 20 in the last 1800 secs - Tue Dec  9 03:58:30 2014
+213.203.148.151 # lfd: (smtpauth) Failed SMTP AUTH login from 213.203.148.151 (IT/Italy/-/-/adsl203-148-151.mclink.it): 20 in the last 1800 secs - Tue Dec  9 07:24:43 2014
+149.3.139.100 # lfd: (ftpd) Failed FTP login from 149.3.139.100 (GB/United Kingdom/-/-/100-139-3-149.rackcentre.redstation.net.uk): 20 in the last 1800 secs - Tue Dec  9 13:00:19 2014
+146.148.82.101 # lfd: (ftpd) Failed FTP login from 146.148.82.101 (US/United States/California/Mountain View/101.82.148.146.bc.googleusercontent.com): 20 in the last 1800 secs - Tue Dec  9 16:28:26 2014
+178.150.135.178 # lfd: (smtpauth) Failed SMTP AUTH login from 178.150.135.178 (UA/Ukraine/-/-/178.135.150.178.triolan.net): 20 in the last 1800 secs - Tue Dec  9 17:44:34 2014
+203.113.159.230 # lfd: (smtpauth) Failed SMTP AUTH login from 203.113.159.230 (VN/Vietnam/Ha Noi/Hanoi/-): 20 in the last 1800 secs - Tue Dec  9 19:25:36 2014
+50.74.234.66 # lfd: (smtpauth) Failed SMTP AUTH login from 50.74.234.66 (US/United States/New York/New York/rrcs-50-74-234-66.nyc.biz.rr.com): 20 in the last 1800 secs - Tue Dec  9 20:30:25 2014
+92.87.210.196 # lfd: (smtpauth) Failed SMTP AUTH login from 92.87.210.196 (RO/Romania/Bucuresti/Bucharest/-): 20 in the last 1800 secs - Tue Dec  9 22:08:17 2014
+74.9.65.253 # lfd: (pop3d) Failed POP3 login from 74.9.65.253 (US/United States/-/-/-): 20 in the last 1800 secs - Wed Dec 10 07:05:11 2014
+113.161.161.19 # lfd: (smtpauth) Failed SMTP AUTH login from 113.161.161.19 (VN/Vietnam/Ho Chi Minh/Ho Chi Minh City/static.vdc.vn): 20 in the last 1800 secs - Wed Dec 10 07:07:30 2014
+184.183.8.167 # lfd: (smtpauth) Failed SMTP AUTH login from 184.183.8.167 (US/United States/Arizona/Mesa/wsip-184-183-8-167.ph.ph.cox.net): 20 in the last 1800 secs - Wed Dec 10 18:01:19 2014
+176.61.138.242 # lfd: (smtpauth) Failed SMTP AUTH login from 176.61.138.242 (SE/Sweden/-/-/-): 20 in the last 1800 secs - Thu Dec 11 05:24:34 2014
+192.99.111.69 # lfd: (pop3d) Failed POP3 login from 192.99.111.69 (CA/Canada/Quebec/Montréal/-): 20 in the last 1800 secs - Thu Dec 11 12:44:23 2014
+46.29.255.229 # lfd: (smtpauth) Failed SMTP AUTH login from 46.29.255.229 (US/United States/-/-/ptr229.glorycontact.com): 20 in the last 1800 secs - Thu Dec 11 21:24:39 2014
+210.251.247.118 # lfd: (ftpd) Failed FTP login from 210.251.247.118 (JP/Japan/-/-/sv-b5.b-sapa.com): 20 in the last 1800 secs - Thu Dec 11 22:14:21 2014
+84.91.197.199 # lfd: (ftpd) Failed FTP login from 84.91.197.199 (PT/Portugal/-/-/mail0.semcabo.pt): 20 in the last 1800 secs - Thu Dec 11 23:32:26 2014
+197.189.231.34 # lfd: (smtpauth) Failed SMTP AUTH login from 197.189.231.34 (ZA/South Africa/-/-/-): 20 in the last 1800 secs - Fri Dec 12 01:07:15 2014
+98.102.90.10 # lfd: (smtpauth) Failed SMTP AUTH login from 98.102.90.10 (US/United States/-/-/rrcs-98-102-90-10.central.biz.rr.com): 20 in the last 1800 secs - Fri Dec 12 03:56:12 2014
+216.121.104.194 # lfd: (ftpd) Failed FTP login from 216.121.104.194 (US/United States/California/San Francisco/194.104.121.216.reverse.gogrid.com): 20 in the last 1800 secs - Fri Dec 12 07:12:16 2014
+37.203.214.234 # lfd: (smtpauth) Failed SMTP AUTH login from 37.203.214.234 (SE/Sweden/-/-/-): 20 in the last 1800 secs - Fri Dec 12 20:11:25 2014
+222.127.174.176 # lfd: (smtpauth) Failed SMTP AUTH login from 222.127.174.176 (PH/Philippines/-/-/-): 20 in the last 1800 secs - Sat Dec 13 05:08:37 2014
+46.29.255.193 # lfd: (smtpauth) Failed SMTP AUTH login from 46.29.255.193 (US/United States/-/-/-): 20 in the last 1800 secs - Sat Dec 13 05:27:25 2014
+69.1.107.210 # lfd: (smtpauth) Failed SMTP AUTH login from 69.1.107.210 (US/United States/Oregon/Pendleton/69-1-107-210.dsl.eotnet.net): 20 in the last 1800 secs - Sat Dec 13 13:52:44 2014
+177.72.32.38 # lfd: (smtpauth) Failed SMTP AUTH login from 177.72.32.38 (BR/Brazil/Sao Paulo/Indaiatuba/177-072-032-038.idt.hine.com.br): 20 in the last 1800 secs - Sun Dec 14 00:37:51 2014
+141.101.99.147 # lfd: (cpanel) Failed cPanel login from 141.101.99.147 (GB/United Kingdom/-/-/-): 10 in the last 1800 secs - Sun Dec 14 11:02:30 2014
+108.162.215.225 # lfd: (cpanel) Failed cPanel login from 108.162.215.225 (US/United States/California/San Francisco/-): 10 in the last 1800 secs - Sun Dec 14 18:08:09 2014
+5.39.223.27 # lfd: (smtpauth) Failed SMTP AUTH login from 5.39.223.27 (NL/Netherlands/-/-/-): 20 in the last 1800 secs - Sun Dec 14 21:29:19 2014
+95.110.203.240 # lfd: (pop3d) Failed POP3 login from 95.110.203.240 (IT/Italy/-/-/erregross.com): 20 in the last 1800 secs - Sun Dec 14 22:28:42 2014
+24.103.186.126 # lfd: (smtpauth) Failed SMTP AUTH login from 24.103.186.126 (US/United States/Maine/Scarborough/rrcs-24-103-186-126.nys.biz.rr.com): 20 in the last 1800 secs - Mon Dec 15 20:04:33 2014
+209.239.114.32 # lfd: (ftpd) Failed FTP login from 209.239.114.32 (US/United States/Missouri/Saint Louis/usloft1016.dedicatedpanel.com): 20 in the last 1800 secs - Tue Dec 16 12:36:51 2014
+217.172.187.46 # lfd: (pop3d) Failed POP3 login from 217.172.187.46 (DE/Germany/-/-/neapel159.startdedicated.de): 20 in the last 1800 secs - Tue Dec 16 20:00:45 2014
+185.56.60.55 # lfd: (smtpauth) Failed SMTP AUTH login from 185.56.60.55 (NL/Netherlands/-/-/-): 20 in the last 1800 secs - Tue Dec 16 21:26:59 2014
+99.24.36.41 # lfd: (smtpauth) Failed SMTP AUTH login from 99.24.36.41 (US/United States/-/-/adsl-99-24-36-41.dsl.mrdnct.sbcglobal.net): 20 in the last 1800 secs - Wed Dec 17 01:04:33 2014
+46.29.255.240 # lfd: (smtpauth) Failed SMTP AUTH login from 46.29.255.240 (US/United States/-/-/-): 20 in the last 1800 secs - Wed Dec 17 03:41:54 2014
+201.7.233.146 # lfd: (smtpauth) Failed SMTP AUTH login from 201.7.233.146 (BR/Brazil/-/-/-): 20 in the last 1800 secs - Wed Dec 17 08:30:23 2014
+23.246.209.156 # lfd: (cpanel) Failed cPanel login from 23.246.209.156 (US/United States/California/San Jose/web2-em.emappqa.sl.edst.ibm.com): 10 in the last 1800 secs - Thu Dec 18 00:45:09 2014
+216.172.45.50 # lfd: (smtpauth) Failed SMTP AUTH login from 216.172.45.50 (CA/Canada/Ontario/Toronto/-): 20 in the last 1800 secs - Thu Dec 18 12:45:13 2014
+23.246.209.155 # lfd: (cpanel) Failed cPanel login from 23.246.209.155 (US/United States/California/San Jose/web1-em.emappqa.sl.edst.ibm.com): 10 in the last 1800 secs - Thu Dec 18 13:41:54 2014
+74.221.213.58 # lfd: (smtpauth) Failed SMTP AUTH login from 74.221.213.58 (US/United States/Colorado/Denver/-): 20 in the last 1800 secs - Thu Dec 18 20:47:44 2014
+64.84.58.7 # lfd: (ftpd) Failed FTP login from 64.84.58.7 (US/United States/California/Novato/7-58.84.64.qds-i.net): 20 in the last 1800 secs - Thu Dec 18 21:37:02 2014

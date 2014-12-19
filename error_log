@@ -1,0 +1,5 @@
+[19-Dec-2014 14:50:57 America/Sao_Paulo] PHP Fatal error:  Call to undefined function strg_replace() in /home/server2/public_html/vagner/projetos/mapa/cache.php on line 11
+[19-Dec-2014 14:53:06 America/Sao_Paulo] PHP Fatal error:  Call to undefined function strg_replace() in /home/server2/public_html/vagner/projetos/mapa/cache.php on line 11
+[19-Dec-2014 14:59:21 America/Sao_Paulo] PHP Fatal error:  Call to undefined function strg_replace() in /home/server2/public_html/vagner/projetos/mapa/cache.php on line 11
+[19-Dec-2014 15:00:14 America/Sao_Paulo] PHP Fatal error:  Call to undefined function strg_replace() in /home/server2/public_html/vagner/projetos/mapa/cache.php on line 11
+[19-Dec-2014 15:29:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '=' in /home/server2/public_html/vagner/projetos/mapa/index.php on line 37
