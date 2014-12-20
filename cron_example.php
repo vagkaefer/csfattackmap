@@ -6,7 +6,7 @@
 require_once 'config.php';
 require_once 'class.php';
 
-$at = new AtackMap();
+$at = new AttackMap();
 $at->gera_cache();
 
 ?>
