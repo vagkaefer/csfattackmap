@@ -6,7 +6,7 @@ require_once 'config.php';
       <link rel="stylesheet" href="ammap/ammap.css" type="text/css">
       <link rel="stylesheet" href="css/style.css" type="text/css">
       <link rel="shortcut icon" href="img/fav.ico"> 
-      <title>CSF - Atack Map</title>
+      <title>CSF - Attack Map</title>
     </head>
     <body>
         <div id="topo">
