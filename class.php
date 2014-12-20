@@ -1,6 +1,6 @@
 <?
 
-class AtackMap{
+class AttackMap{
 
   	public function gera_cache(){
 
