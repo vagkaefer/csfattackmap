@@ -18,6 +18,7 @@ class AttackMap{
 
 		$array_dad = array();
 		$array_name = array();
+		$total=0;
 		while (!feof ($ponteiro)) {
 			
 			$linha_original = fgets($ponteiro,4096);
@@ -39,6 +40,7 @@ class AttackMap{
 				}else{				  
 				  $array_dad[$dad_pais[0]][0]++;
 				}
+				++$total;
 			}
 		}
 		fclose ($ponteiro);		
@@ -59,7 +61,7 @@ class AttackMap{
 		if (!$ponteiro) die('ERROR CACHE FILE: File does not exist or need access permission - Arquivo nao existe ou precisa permissao de acesso!');
 			fwrite($ponteiro, $max."\n".$linha);
 
-		echo "Novo cache gerado com sucesso! ".$max." registro(s) | New cache successfully generated! ".$max." record(s)";
+		echo "Novo cache gerado com sucesso! ".$total." registro(s) | New cache successfully generated! ".$total." record(s)";
 	
 	}//Fim da funcao gera_cache - End of the function gera_cache
 }
