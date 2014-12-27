@@ -7,5 +7,5 @@ Is in test mode! The script is using the anmap. But it is heavy, if you know bet
 
 Demo: http://blog.vagner.eng.br/projects/csfattackmap/
 
-![Image](http://blog.vagner.eng.br/projects/csfattackmap/mapa.png)
+![Image](http://blog.vagner.eng.br/projects/csfattackmap/mapa2.png)
 
