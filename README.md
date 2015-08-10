@@ -9,3 +9,5 @@ Demo: http://blog.vagner.eng.br/projects/csfattackmap/
 
 ![Image](http://blog.vagner.eng.br/projects/csfattackmap/mapa2.png)
 
+Tem q migrar pra algum JS... O mapa está muito pesado! 
+
